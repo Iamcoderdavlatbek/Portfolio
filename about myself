@@ -1,0 +1,17 @@
+name: Davlat Nazarov
+
+on: [push]
+
+jobs: Programmer
+  build: first portfolio
+
+    runs-on: github
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Davlat
+      run: kamina
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
